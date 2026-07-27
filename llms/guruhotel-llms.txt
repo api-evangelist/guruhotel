@@ -1,0 +1,49 @@
+<!-- generated: '2026-07-19' | method: searched | source: https://guruhotel.com/llms.txt -->
+# GuruHotel
+
+> GuruHotel is AI-native direct booking infrastructure for independent hotels: an AI-powered hotel website builder, direct booking engine and payment orchestration platform that turns a hotel's official website into a direct booking channel with real-time inventory, secure Stripe-powered payments and a guest-first checkout.
+
+GuruHotel is trusted by 1000+ hotels, serves 200,000+ guests per year and processes $15M+ in annual gross booking value across the US, Mexico, the Caribbean and Europe. It has used Stripe as its payment partner since 2019 (Checkout, Elements, Payment Links, Link, Apple Pay and Google Pay). Multi-language booking and multi-currency checkout are supported. This file is a curated map; the full knowledge base lives at /llms-full.txt.
+
+## Core product pages
+
+- [GuruHotel Manager](https://guruhotel.com/product/manager): The hotelier dashboard (manager.guruhotel.com) to run reservations, transactions, guests, Direct Production analytics, the booking-engine calendar and the website. Includes a live, sample-data dashboard preview.
+- [Hotel Website Builder](https://guruhotel.com/hotel-website): AI-powered hotel website builder for more direct bookings.
+- [Booking Engine](https://guruhotel.com/booking-engine): Direct booking engine with real-time availability, secure payments and mobile checkout.
+- [Payments Orchestration](https://guruhotel.com/payments-orchestration): Hotel payment processing, multi-currency and Stripe-powered checkout.
+- [AI Website Builder](https://guruhotel.com/ai-website-builder): Generate a professional hotel website with AI.
+- [Integrations](https://guruhotel.com/integrations): PMS, channel manager and connectivity options.
+- [Pricing](https://guruhotel.com/pricing): Commission-based pricing with optional subscription plans.
+- [What is GuruHotel](https://guruhotel.com/what-is-guruhotel): Company background and mission.
+
+## Integration pages
+
+- [PMS Integrations hub](https://guruhotel.com/integrations/pms)
+- [Cloudbeds](https://guruhotel.com/integrations/pms/cloudbeds): direct PMS integration.
+- [Channex](https://guruhotel.com/integrations/pms/channex): connectivity layer; GuruHotel connects to 280+ PMS through Channex.
+
+Connectivity model: Cloudbeds is a direct integration; most other PMS platforms (Mews, apaleo, Oracle OPERA Cloud, RoomRaccoon, Guesty, Hostaway and more) connect through Channex. Google for Hotels (Google Hotel Ads) is a direct integration. A direct Zavia ERP integration is coming soon. Connectivity for channel-manager/CRS competitors is confirmed case by case.
+
+## Guides & blog
+
+- [Blog hub](https://guruhotel.com/blog): long-form guides on direct bookings, hotel websites and AI visibility.
+- [GEO & AEO for hotels](https://guruhotel.com/blog/geo-aeo-for-hotels-get-cited-by-ai): how to get cited by ChatGPT, Perplexity and Google AI Overviews.
+- [llms.txt for hotels](https://guruhotel.com/blog/llms-txt-for-hotels): what it is and why a hotel website needs one.
+- [Schema.org for hotel websites](https://guruhotel.com/blog/schema-org-for-hotel-websites): a practical structured-data guide.
+- [Direct-booking playbook](https://guruhotel.com/blog/direct-booking-playbook-for-independent-hotels): steps to grow commission-free direct bookings.
+- [High-converting hotel website checklist](https://guruhotel.com/blog/high-converting-hotel-website-checklist): the essentials that turn visitors into direct bookings.
+
+## Machine-readable files
+
+- [Full knowledge base](https://guruhotel.com/llms-full.txt)
+- [Product facts JSON](https://guruhotel.com/data/guruhotel-product.json)
+- [Integrations JSON](https://guruhotel.com/data/guruhotel-integrations.json)
+- Markdown mirrors are available at /md/<page-slug>.md
+
+## Languages
+
+English (root), Spanish (/es), Italian (/it), French (/fr), German (/de).
+
+## Contact
+
+- [Contact GuruHotel](https://guruhotel.com/contact-us) — sales@guruhotel.com

@@ -1,8 +1,27 @@
 aid: guruhotel
 name: GuruHotel
-description: GuruHotel is a company surfaced as a portfolio company of 500-global, anthemis and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  GuruHotel is AI-native direct-booking infrastructure for independent hotels: an AI-powered
+  hotel website builder, a conversion-optimized direct booking engine, and a Stripe-powered
+  payment-orchestration platform that turns a hotel's official website into a commission-free
+  direct booking channel with real-time inventory, multi-currency checkout and a guest-first
+  experience. Founded in 2019, GuruHotel is trusted by 1000+ hotels, serves 200,000+ guests a
+  year and processes $15M+ in annual gross booking value across the United States, Mexico, the
+  Caribbean and Europe. It connects to hotel PMS platforms directly (Cloudbeds) and through
+  Channex (280+ PMS incl. Mews, apaleo, Oracle OPERA Cloud, Guesty, Hostaway), plus Google for
+  Hotels. GuruHotel is a portfolio company of 500 Global and Anthemis.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://guruhotel.com/images/brand/guruhotel-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/guruhotel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Hotels
+- Hospitality
+- Travel
+- Booking
+- Direct Booking
+- Payments
+- PMS
+- Website Builder
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://guruhotel.com
+- type: Pricing
+  url: https://guruhotel.com/pricing
+- type: Blog
+  url: https://guruhotel.com/blog
+- type: Support
+  url: https://guruhotel.com/contact-us
+- type: Login
+  url: https://manager.guruhotel.com
+- type: Integrations
+  url: https://guruhotel.com/integrations
+- type: LLMsTxt
+  url: llms/guruhotel-llms.txt
+- type: DomainSecurity
+  url: security/guruhotel-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

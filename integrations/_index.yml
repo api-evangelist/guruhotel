@@ -1,0 +1,417 @@
+generated: '2026-07-19'
+method: searched
+source: https://guruhotel.com/data/guruhotel-integrations.json
+note: >-
+  GuruHotel publishes a machine-readable integrations catalog. Cloudbeds and Google for
+  Hotels are direct integrations; most PMS platforms connect through Channex (280+ PMS).
+  Listing-only: GuruHotel publishes no partner OpenAPI to ground forkable Arazzo, so each
+  entry carries arazzo: null.
+integrations:
+  - slug: cloudbeds
+    label: "GuruHotel booking engine for Cloudbeds hotels"
+    partner: "Cloudbeds"
+    category: pms
+    connectivity: direct
+    status: live
+    url: https://guruhotel.com/integrations/pms/cloudbeds
+    arazzo: null
+  - slug: channex
+    label: "GuruHotel booking engine for Channex hotels"
+    partner: "Channex"
+    category: pms
+    connectivity: direct
+    status: live
+    url: https://guruhotel.com/integrations/pms/channex
+    arazzo: null
+  - slug: mews
+    label: "GuruHotel booking engine for Mews hotels"
+    partner: "Mews"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/mews
+    arazzo: null
+  - slug: apaleo
+    label: "GuruHotel booking engine for apaleo hotels"
+    partner: "apaleo"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/apaleo
+    arazzo: null
+  - slug: opera-cloud
+    label: "GuruHotel booking engine for Oracle OPERA Cloud hotels"
+    partner: "Oracle OPERA Cloud"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/opera-cloud
+    arazzo: null
+  - slug: little-hotelier
+    label: "GuruHotel booking engine for Little Hotelier hotels"
+    partner: "Little Hotelier"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/little-hotelier
+    arazzo: null
+  - slug: roomraccoon
+    label: "GuruHotel booking engine for RoomRaccoon hotels"
+    partner: "RoomRaccoon"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/roomraccoon
+    arazzo: null
+  - slug: amenitiz
+    label: "GuruHotel booking engine for Amenitiz hotels"
+    partner: "Amenitiz"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/amenitiz
+    arazzo: null
+  - slug: wubook
+    label: "GuruHotel booking engine for WuBook hotels"
+    partner: "WuBook"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/wubook
+    arazzo: null
+  - slug: eviivo
+    label: "GuruHotel booking engine for eviivo hotels"
+    partner: "eviivo"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/eviivo
+    arazzo: null
+  - slug: resnexus
+    label: "GuruHotel booking engine for ResNexus hotels"
+    partner: "ResNexus"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/resnexus
+    arazzo: null
+  - slug: rezovation
+    label: "GuruHotel booking engine for RezOvation hotels"
+    partner: "RezOvation"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/rezovation
+    arazzo: null
+  - slug: beds24
+    label: "GuruHotel booking engine for Beds24 hotels"
+    partner: "Beds24"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/beds24
+    arazzo: null
+  - slug: sirvoy
+    label: "GuruHotel booking engine for Sirvoy hotels"
+    partner: "Sirvoy"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/sirvoy
+    arazzo: null
+  - slug: hotelogix
+    label: "GuruHotel booking engine for Hotelogix hotels"
+    partner: "Hotelogix"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/hotelogix
+    arazzo: null
+  - slug: rms-cloud
+    label: "GuruHotel booking engine for RMS Cloud hotels"
+    partner: "RMS Cloud"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/rms-cloud
+    arazzo: null
+  - slug: clock-pms
+    label: "GuruHotel booking engine for Clock PMS+ hotels"
+    partner: "Clock PMS+"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/clock-pms
+    arazzo: null
+  - slug: stayntouch
+    label: "GuruHotel booking engine for Stayntouch hotels"
+    partner: "Stayntouch"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/stayntouch
+    arazzo: null
+  - slug: innroad
+    label: "GuruHotel booking engine for innRoad hotels"
+    partner: "innRoad"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/innroad
+    arazzo: null
+  - slug: webrezpro
+    label: "GuruHotel booking engine for WebRezPro hotels"
+    partner: "WebRezPro"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/webrezpro
+    arazzo: null
+  - slug: ezee
+    label: "GuruHotel booking engine for eZee hotels"
+    partner: "eZee"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/ezee
+    arazzo: null
+  - slug: newbook
+    label: "GuruHotel booking engine for NewBook hotels"
+    partner: "NewBook"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/newbook
+    arazzo: null
+  - slug: preno
+    label: "GuruHotel booking engine for Preno hotels"
+    partner: "Preno"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/preno
+    arazzo: null
+  - slug: octorate
+    label: "GuruHotel booking engine for Octorate hotels"
+    partner: "Octorate"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/octorate
+    arazzo: null
+  - slug: hotelrunner
+    label: "GuruHotel booking engine for HotelRunner hotels"
+    partner: "HotelRunner"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/hotelrunner
+    arazzo: null
+  - slug: noovy
+    label: "GuruHotel booking engine for Noovy hotels"
+    partner: "Noovy"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/noovy
+    arazzo: null
+  - slug: avirato
+    label: "GuruHotel booking engine for Avirato hotels"
+    partner: "Avirato"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/avirato
+    arazzo: null
+  - slug: guestline
+    label: "GuruHotel booking engine for Guestline hotels"
+    partner: "Guestline"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/guestline
+    arazzo: null
+  - slug: sihot
+    label: "GuruHotel booking engine for SIHOT hotels"
+    partner: "SIHOT"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/sihot
+    arazzo: null
+  - slug: passepartout
+    label: "GuruHotel booking engine for Passepartout hotels"
+    partner: "Passepartout"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/passepartout
+    arazzo: null
+  - slug: djubo
+    label: "GuruHotel booking engine for DJUBO hotels"
+    partner: "DJUBO"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/djubo
+    arazzo: null
+  - slug: resharmonics
+    label: "GuruHotel booking engine for ResHarmonics hotels"
+    partner: "ResHarmonics"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/resharmonics
+    arazzo: null
+  - slug: guesty
+    label: "GuruHotel booking engine for Guesty hotels"
+    partner: "Guesty"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/guesty
+    arazzo: null
+  - slug: hostaway
+    label: "GuruHotel booking engine for Hostaway hotels"
+    partner: "Hostaway"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/hostaway
+    arazzo: null
+  - slug: lodgify
+    label: "GuruHotel booking engine for Lodgify hotels"
+    partner: "Lodgify"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/lodgify
+    arazzo: null
+  - slug: smoobu
+    label: "GuruHotel booking engine for Smoobu hotels"
+    partner: "Smoobu"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/smoobu
+    arazzo: null
+  - slug: hostfully
+    label: "GuruHotel booking engine for Hostfully hotels"
+    partner: "Hostfully"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/hostfully
+    arazzo: null
+  - slug: ownerrez
+    label: "GuruHotel booking engine for OwnerRez hotels"
+    partner: "OwnerRez"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/ownerrez
+    arazzo: null
+  - slug: uplisting
+    label: "GuruHotel booking engine for Uplisting hotels"
+    partner: "Uplisting"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/uplisting
+    arazzo: null
+  - slug: tokeet
+    label: "GuruHotel booking engine for Tokeet hotels"
+    partner: "Tokeet"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/tokeet
+    arazzo: null
+  - slug: bookingsync
+    label: "GuruHotel booking engine for Smily (BookingSync) hotels"
+    partner: "Smily (BookingSync)"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/bookingsync
+    arazzo: null
+  - slug: hospitable
+    label: "GuruHotel booking engine for Hospitable hotels"
+    partner: "Hospitable"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/hospitable
+    arazzo: null
+  - slug: icnea
+    label: "GuruHotel booking engine for Icnea hotels"
+    partner: "Icnea"
+    category: pms
+    connectivity: via-channex
+    status: via-channex
+    url: https://guruhotel.com/integrations/pms/icnea
+    arazzo: null
+  - slug: siteminder
+    label: "GuruHotel booking engine for SiteMinder hotels"
+    partner: "SiteMinder"
+    category: pms
+    connectivity: unverified
+    status: unverified
+    url: https://guruhotel.com/integrations/pms/siteminder
+    arazzo: null
+  - slug: vertical-booking
+    label: "GuruHotel booking engine for Vertical Booking hotels"
+    partner: "Vertical Booking"
+    category: pms
+    connectivity: unverified
+    status: unverified
+    url: https://guruhotel.com/integrations/pms/vertical-booking
+    arazzo: null
+  - slug: bookassist
+    label: "GuruHotel booking engine for Bookassist hotels"
+    partner: "Bookassist"
+    category: pms
+    connectivity: unverified
+    status: unverified
+    url: https://guruhotel.com/integrations/pms/bookassist
+    arazzo: null
+  - slug: ihotelier
+    label: "GuruHotel booking engine for iHotelier hotels"
+    partner: "iHotelier"
+    category: pms
+    connectivity: unverified
+    status: unverified
+    url: https://guruhotel.com/integrations/pms/ihotelier
+    arazzo: null
+  - slug: simple-booking
+    label: "GuruHotel booking engine for Simple Booking hotels"
+    partner: "Simple Booking"
+    category: pms
+    connectivity: unverified
+    status: unverified
+    url: https://guruhotel.com/integrations/pms/simple-booking
+    arazzo: null
+  - slug: easy-rez
+    label: "GuruHotel booking engine for Easy-Rez hotels"
+    partner: "Easy-Rez"
+    category: pms
+    connectivity: unverified
+    status: unverified
+    url: https://guruhotel.com/integrations/pms/easy-rez
+    arazzo: null
+  - slug: travelclick
+    label: "GuruHotel booking engine for TravelClick hotels"
+    partner: "TravelClick"
+    category: pms
+    connectivity: unverified
+    status: unverified
+    url: https://guruhotel.com/integrations/pms/travelclick
+    arazzo: null
+  - slug: google-hotel-ads
+    label: "Google for Hotels"
+    partner: "Google for Hotels"
+    category: distribution
+    connectivity: direct
+    status: live
+    url: https://guruhotel.com/integrations/google-hotel-ads
+    arazzo: null
