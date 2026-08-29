@@ -10,6 +10,17 @@ description: >-
   Caribbean and Europe. It connects to hotel PMS platforms directly (Cloudbeds) and through
   Channex (280+ PMS incl. Mews, apaleo, Oracle OPERA Cloud, Guesty, Hostaway), plus Google for
   Hotels. GuruHotel is a portfolio company of 500 Global and Anthemis.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
