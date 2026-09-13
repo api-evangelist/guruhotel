@@ -1,0 +1,31 @@
+generated: '2026-09-11'
+method: probed
+source: https://guruhotel.com/api/mcp
+status: published
+server:
+  name: guruhotel
+  transport: http
+  url: https://guruhotel.com/api/mcp
+deployment:
+  mode: remote
+  endpoint: https://guruhotel.com/api/mcp
+  verified: probed
+  probe: live
+  checked: '2026-09-11'
+  source: docs-check 2026-09-12 (endpoint found in the provider's own documentation, then probed)
+tools_count: 6
+tools:
+- name: search_guruhotel_knowledge
+  description: ''
+- name: get_product_facts
+  description: ''
+- name: get_pricing
+  description: ''
+- name: get_integrations
+  description: ''
+- name: check_pms_compatibility
+  description: ''
+- name: get_page_markdown
+  description: ''
+tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
+authorship: provider
