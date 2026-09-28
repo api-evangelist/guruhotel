@@ -16,16 +16,27 @@ deployment:
 tools_count: 6
 tools:
 - name: search_guruhotel_knowledge
-  description: ''
+  description: 'Search GuruHotel''s published knowledge base: product pages, integration pages, and guides
+    about direct bookings, hotel websites, booking engines, payments and AI/agentic booking. Returns matching
+    pages with a snippet and a markdown mirror U'
 - name: get_product_facts
-  description: ''
+  description: 'Published, verified facts about GuruHotel the company and product: positioning, capabilities,
+    traction metrics, payments (Stripe) and markets. Same data as https://guruhotel.com/data/guruhotel-product.json.'
 - name: get_pricing
-  description: ''
+  description: GuruHotel's published pricing model (commission-based with optional subscription plans).
+    There is no public rate card; includes the pricing page URL and sales contact.
 - name: get_integrations
-  description: ''
+  description: 'Full inventory of GuruHotel''s PMS/connectivity integrations with their status: ''live''
+    (direct), ''via-channex'' (evidenced Channex connection), ''compatible'' (works through Channex, confirmed
+    during onboarding), ''beta'' or ''unverified''. Same da'
 - name: check_pms_compatibility
-  description: ''
+  description: Check whether a specific hotel PMS (property management system) works with GuruHotel, e.g.
+    'Cloudbeds', 'Mews', 'Oracle OPERA'. Answers with the connection type (direct or via Channex) and
+    next steps when unconfirmed.
 - name: get_page_markdown
-  description: ''
+  description: Fetch the full markdown version of any GuruHotel page by its URL path (e.g. 'blog/how-ai-agents-book-hotels'
+    or 'integrations/pms/cloudbeds'). Use search_guruhotel_knowledge first to discover pages.
 tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
 authorship: provider
+descriptions_source: live tools/list (authorship probe or saved capture); filled by backfill-tools-from-authorship.py
+  --descriptions, 2026-09-28
