@@ -18,7 +18,7 @@ tools:
 - name: search_guruhotel_knowledge
   description: 'Search GuruHotel''s published knowledge base: product pages, integration pages, and guides
     about direct bookings, hotel websites, booking engines, payments and AI/agentic booking. Returns matching
-    pages with a snippet and a markdown mirror U'
+    pages with a snippet and a markdown mirror URL that can be fetched for the full content.'
 - name: get_product_facts
   description: 'Published, verified facts about GuruHotel the company and product: positioning, capabilities,
     traction metrics, payments (Stripe) and markets. Same data as https://guruhotel.com/data/guruhotel-product.json.'
@@ -28,7 +28,7 @@ tools:
 - name: get_integrations
   description: 'Full inventory of GuruHotel''s PMS/connectivity integrations with their status: ''live''
     (direct), ''via-channex'' (evidenced Channex connection), ''compatible'' (works through Channex, confirmed
-    during onboarding), ''beta'' or ''unverified''. Same da'
+    during onboarding), ''beta'' or ''unverified''. Same data as https://guruhotel.com/data/guruhotel-integrations.json.'
 - name: check_pms_compatibility
   description: Check whether a specific hotel PMS (property management system) works with GuruHotel, e.g.
     'Cloudbeds', 'Mews', 'Oracle OPERA'. Answers with the connection type (direct or via Channex) and
